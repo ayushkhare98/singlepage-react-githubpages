@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import "./App.css";
+import logo1 from "./logos/img.png";
+import logo2 from "./logos/img_1.png";
+import logo3 from "./logos/img_2.png";
+import logo4 from "./logos/img_3.png";
 
 const courses = [
   {
@@ -46,6 +50,12 @@ const App = () => {
   return (
     <div className="container">
       <header>
+        <div className="logo-container">
+          <img src={logo1} alt="ICCMRT Logo 1" className="logo" />
+          <img src={logo2} alt="ICCMRT Logo 2" className="logo" />
+          <img src={logo3} alt="ICCMRT Logo 3" className="logo" />
+          <img src={logo4} alt="ICCMRT Logo 4" className="logo" />
+        </div>
         <h1>Advance Your Healthcare Career with ICCMRT’s Certification Programs!</h1>
       </header>
 
@@ -87,8 +97,6 @@ const App = () => {
           ))}
         </div>
       </section>
-
-
 
       <footer>
         <p>Contact us at <strong>iccmrt2025@outlook.com</strong> | Phone: <strong>+91 70072 32265</strong></p>

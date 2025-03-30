@@ -138,3 +138,15 @@ footer {
   border-radius: 0 0 12px 12px;
   font-size: 14px;
 }
+.logo-container {
+   display: flex;
+   justify-content: center;
+   gap: 0px; /* No gap between logos */
+   align-items: center;
+ }
+
+ .logo {
+   height: 60px; /* Ensures uniform height */
+   width: auto; /* Maintains aspect ratio */
+ }
+
